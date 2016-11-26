@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>龙湖地产</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link href="css/lrtk.css" rel="stylesheet" type="text/css">
+<script src="js/banner.js"></script>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+
+<script>
+   $(function() {
+	    $(".btn_top").hide();
+		$(".btn_top").live("click",function(){
+			$('html, body').animate({scrollTop: 0},300);return false;
+		})
+		$(window).bind('scroll resize',function(){
+			if($(window).scrollTop()<=300){
+				$(".btn_top").hide();
+			}else{
+				$(".btn_top").show();
+			}
+		})
+   })
+</script>
+</head>
+
+<body>
+	<div class="top">
+    	<div class="logo"><a href="#"><img src="images/logo.jpg"/></a></div>
+        <div class="language"><a href="#"><img src="images/china.jpg"/></a><a href="#"><img src="images/english.jpg"/></a></div>
+    </div>
+    <div class="menu">
+    	<ul>
+        	<li><a href="#">首页</a></li>
+            <li><a href="#">公司简介</a></li>
+            <li><a href="#">新闻中心</a></li>
+            <li><a href="#">客户服务</a></li>
+            <li><a href="#">人力资源</a></li>
+            <li><a href="#">客服中心</a></li>
+            <li class="nomargin"><a href="#">业务区域</a></li>
+            <li class="move"></li>
+        </ul>
+    </div>
+    <div class="banner">
+    
+    <div id="ifocus">
+	<div id="ifocus_pic">
+		<div id="ifocus_piclist" style="left:0; top:0;">
+			<ul>
+				<li><a href="#" target="_blank"><img src="images/banner.jpg" alt="" /></a></li>
+				<li><a href="#" target="_blank"><img src="images/banner2.jpg" alt="" /></a></li>
+				<li><a href="#" target="_blank"><img src="images/banner3.jpg" alt="" /></a></li>
+				<li><a href="#" target="_blank"><img src="images/banner4.jpg" alt="" /></a></li>
+			</ul>
+		</div>
+		<div id="ifocus_opdiv"></div>
+		<div id="ifocus_tx">
+			<ul>
+				<li class="current">建筑1</li>
+				<li class="normal">建筑2</li>
+				<li class="normal">建筑3</li>
+				<li class="normal">建筑4</li>
+			</ul>
+		</div>
+	</div>
+	<div id="ifocus_btn">
+		<ul>
+			<li class="current"><img src="images/btn_banner.jpg" alt="" /></li>
+			<li class="normal"><img src="images/btn_banner2.jpg" alt="" /></li>
+			<li class="normal"><img src="images/btn_banner3.jpg" alt="" /></li>
+			<li class="normal"><img src="images/btn_banner4.jpg" alt="" /></li>
+		</ul>
+	</div>
+</div>
+    
+    
+    
+    </div>
+    <div class="main">
+    	<div class="mainleft">
+        	<div class="l_t">
+            	<div class="caption">
+                	<img src="images/icon_news.jpg"/><span>热点资讯</span>
+                </div>
+                <div class="news">
+                	<div class="pic"><img src="images/news_one.jpg"/></div>
+                    <div class="text">
+                            <p class="title">龙湖股份：百强房企跨越上市 引领地产阔步走强</p>
+                            <p class="newscontent">12月30日上午9点28分，随着董事长俞午先生和总裁汪液女士一起敲响了当天开市锣声，A股开盘之时，正式更名为“龙湖股份”。......</p>
+                            <a href="#"><img class="read" src="images/read.jpg"/></a>				
+                        </div>
+                    </div>
+                </div>
+                <div class="l_d">
+                    <div class="left">
+                        <div class="caption">
+                        	<div class="cleft">
+                            	<img src="images/icon_news.jpg"/><span>公司新闻</span>
+                            </div>
+                            <div class="cright"><a href="#"><img class="more" src="images/more.jpg"/></a></div>
+                        </div>
+                        <div class="news_two"><img src="images/news_two.jpg" /></div>
+                        <div class="list">
+                        	<ul>
+                            	<li><a href="#">龙湖地产5月签约33.5亿 北京双天街热销超</a></li>
+                            	<li><a href="#">龙湖地产4月签约30.4亿 重庆项目刷新市场成</a></li>
+                                <li><a href="#">龙湖地产一季度合同销售65.3亿 二季度加推新</a></li>
+                                <li><a href="#">2011年合同销售额达人民币382.7亿元</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="caption">
+                        	<div class="cleft">
+                            	<img src="images/icon_news.jpg"/><span>商业动态</span>
+                            </div>
+                            <div class="cright"><a href="#"><img class="more" src="images/more.jpg"/></a></div>
+                        </div>
+                        <div class="news_three"><img src="images/news_three.jpg" /></div>
+                        <div class="list">
+                        	<ul>
+                            	<li><a href="#">重庆龙湖MOCO家居生活馆全馆盛装开放！</a></li>
+                            	<li><a href="#">北京“龙湖·星悦荟”商业街盛大开街！</a></li>
+                                <li><a href="#">北城天街新馆开业，取得轰动性成功！</a></li>
+                                <li><a href="#">重庆龙湖再启社区儿童素质教育第二课堂</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        
+        <div class="mainright">
+            <div class="caption">
+                <div class="cleft">
+                    <img src="images/icon_news.jpg"/><span>商业动态</span>
+                </div>
+                <div class="cright"><a href="#"><img class="more" src="images/more.jpg"/></a></div>
+            </div>
+            <a href="#"><img src="images/building_one.jpg"/></a>
+            <a href="#"><img src="images/building_two.jpg"/></a>
+            <a href="#"><img src="images/building_three.jpg"/></a>
+            <a href="#"><img src="images/building_four.jpg"/></a>
+        </div>
+     </div>
+     <div class="footer">
+     	<div class="info">
+        	<ul>
+            	<li><a href="#">法律声明</a></li>
+                <li><a href="#">网站地图</a></li>
+                <li><a href="#">意见建议</a></li>
+                <li><a href="#">版权信息</a></li>
+                <li class="noborder"><a href="#">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="copyright">2012 龙湖地产有限公司 渝ICP备05003852号</div>
+     </div>
+     <div class="izl-rmenu">
+        <a class="consult" target="_blank"><div class="phone" style="display:none;">010-12345678</div></a>    
+        <a class="cart"><div class="pic"></div></a>   
+        <a href="javascript:void(0)" class="btn_top" style="display: block;"></a>
+	</div>
+	<a target="_blank"  href="http://wpa.qq.com/msgrd?v=3&uin=12345678&site=qq&menu=yes" id="udesk-feedback-tab" class="udesk-feedback-tab-left" style="display: block; background-color: black;"></a>
+</body>
+</html>
